@@ -1,6 +1,6 @@
-** Note: This repo is still in W.I.P **<br>
-** And remember. Send complaints to you know who when thing goes wrong. **<br>
-** But for now. Don't. It's still in W.I.P! **
+**Note: This repo is still in W.I.P**<br>
+**And remember. Send complaints to you know who when thing goes wrong.**<br>
+**But for now. Don't. It's still in W.I.P!**
 
 ## What is this?
 This is a repo for a NAS-like algorithm consisting of chromosomes and GA (mainly) for a group project.
