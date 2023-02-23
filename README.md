@@ -11,6 +11,10 @@ But if your goal isn't finding the best model. Than you can generate a PyTorch m
 
 But since this is still a W.I.P (heavily). Expect changes. Cheerios!
 
+## Requirements:
+- torch >= 1.13.1
+- automata-lib >= 6.0.2 (v6)
+
 ## To-do List:
 - [ ] Complete Inception chromosomes
     - [ ] DFA for checking validity (not sure if needed or not). 

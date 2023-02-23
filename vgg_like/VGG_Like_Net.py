@@ -13,7 +13,7 @@ class VGGLikeNet:
             raise Exception("Bad Chromosome:", chunk)
         
         model,_ = CNN_Net.model_build(chunk, data_shape, keep_spatial = True)
-        model.append(nn.Softmax(dim=1))
+        model.add_module("softmax",nn.Softmax(dim=1))
 
         return model
     

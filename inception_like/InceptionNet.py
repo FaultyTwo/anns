@@ -10,6 +10,7 @@ from pure_networks.CNN_Net import CNN_Net
 
 class InceptionNet:
 
+    @classmethod
     def model_build(self, chunk:list, data_shape:list):
         # Chromosome reminder
         # There are two parts in Inception

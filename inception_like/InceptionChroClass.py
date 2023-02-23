@@ -15,7 +15,7 @@ class InceptionChroClass:
         '''
         sep = gene.split('I')
         sep = ' '.join(sep).split() # die empty members, die
-        print(sep)
+        #print(sep)
         for index,x in enumerate(sep):
             if x[0] == 'S': # inception part
                 inception_list = x.split('S')
