@@ -1,0 +1,20 @@
+{
+    "states":["st1","st2","fl"],
+    "alphabet":["P","F","C"],
+    "initial_state":"st1",
+    "trans":{
+        "st1":{
+           "C":"st2" 
+        },
+        "st2":{
+            "C":"st2",
+            "P":"st2",
+            "F":"fl"
+        },
+        "fl":{
+            "F":"fl"
+        }
+    },
+    "accept":["st2","fl"],
+    "_comment":"This is a json file for checking chromosome validity when generating VGGLike-net"
+}
